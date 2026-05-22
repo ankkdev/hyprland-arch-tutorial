@@ -1,4 +1,5 @@
 # Hyprland en Arch Linux
+<img width="1920" height="1080" alt="Captura de pantalla 2026-05-22 020647" src="https://github.com/user-attachments/assets/04f998be-774f-48af-a069-f1468dc9fe17" />
 
 ## Que es esto
 ## Resultado final (foto)
