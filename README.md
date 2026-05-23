@@ -85,7 +85,7 @@ Cambia 1920x1080 y 60 por tu resolucion y frecuencia.
 Para ver las resoluciones disponibles ejecuta: hyprctl monitors
 
 --- INICIO hyprland.conf ---
-
+```css
 monitor=,1920x1080@60,auto,1
 
 $mainMod = SUPER
@@ -146,6 +146,7 @@ bind = , XF86AudioRaiseVolume, exec, pactl set-sink-volume @DEFAULT_SINK@ +5%
 bind = , XF86AudioLowerVolume, exec, pactl set-sink-volume @DEFAULT_SINK@ -5%
 bind = , XF86AudioMute, exec, pactl set-sink-mute @DEFAULT_SINK@ toggle
 bind = $mainMod SHIFT, S, exec, grim -g "$(slurp)" ~/screenshot.png
+```
 
 --- FIN hyprland.conf ---
 
@@ -211,6 +212,7 @@ Ahora abre el estilo:
 Borra todo y pega lo siguiente (tema Catppuccin Mocha):
 
 --- INICIO style.css ---
+```css
 
 * {
     font-family: JetBrains Mono Nerd Font;
@@ -262,7 +264,7 @@ window#waybar {
     padding: 0 10px;
     color: #cba6f7;
 }
-
+```
 --- FIN style.css ---
 
 Para aplicar cambios sin reiniciar Hyprland:
@@ -296,7 +298,7 @@ configuration {
     nano ~/.config/rofi/theme.rasi
 
 --- INICIO theme.rasi ---
-
+```css
 * {
     bg: #1e1e2e;
     fg: #cdd6f4;
@@ -329,7 +331,7 @@ element selected {
     text-color: @bg;
     border-radius: 6px;
 }
-
+```
 --- FIN theme.rasi ---
 
 Para explorar temas incluidos de rofi:
@@ -385,7 +387,7 @@ padding=10
     nano ~/.config/hypr/hyprlock.conf
 
 --- INICIO hyprlock.conf ---
-
+```css
 background {
     monitor =
     path = ~/wallpaper.jpg
@@ -401,7 +403,7 @@ input-field {
     font_color = rgb(10, 10, 10)
     placeholder_text = Contrasena
 }
-
+```
 --- FIN hyprlock.conf ---
 
 Bloquea la pantalla con SUPER+L
