@@ -172,7 +172,7 @@ AVISO: la config por defecto usa modulos de Sway que no funcionan en Hyprland.
 Hay que usar hyprland/workspaces en lugar de sway/workspaces:
 
 --- INICIO config.jsonc ---
-
+```json
 {
     "layer": "top",
     "position": "top",
@@ -202,7 +202,7 @@ Hay que usar hyprland/workspaces en lugar de sway/workspaces:
         "format-muted": "MUTE"
     }
 }
-
+```
 --- FIN config.jsonc ---
 
 Ahora abre el estilo:
