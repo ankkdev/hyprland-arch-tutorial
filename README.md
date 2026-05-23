@@ -78,7 +78,7 @@ Abre el archivo con nano.
 AVISO: usar siempre nano para editar archivos desde SSH.
 Nunca usar cat con EOF porque puede guardar el comando literalmente dentro del archivo:
 
-    nano ~/.config/hyprland.conf
+    nano ~/.config/hypr/hyprland.conf
 
 Borra todo el contenido y pega exactamente lo siguiente.
 Cambia 1920x1080 y 60 por tu resolucion y frecuencia.
