@@ -279,7 +279,7 @@ Para aplicar cambios sin reiniciar Hyprland:
     nano ~/.config/rofi/config.rasi
 
 --- INICIO config.rasi ---
-
+```css
 configuration {
     modi: "drun,run,window";
     font: "JetBrains Mono 12";
