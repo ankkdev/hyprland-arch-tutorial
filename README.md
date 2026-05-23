@@ -366,7 +366,7 @@ AVISO: No uses hyprpaper en versiones recientes de Hyprland, da error Missing pr
     nano ~/.config/mako/config
 
 --- INICIO mako/config ---
-
+```css
 background-color=#1e1e2e
 text-color=#cdd6f4
 border-color=#89b4fa
@@ -377,6 +377,7 @@ width=300
 height=100
 margin=10
 padding=10
+```
 
 --- FIN mako/config ---
 
